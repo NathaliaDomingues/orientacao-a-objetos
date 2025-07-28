@@ -1,12 +1,5 @@
 public class Main {
     public static void main(String[] args) {
-//        Nome minhaFicha = new Nome();
-//
-//        minhaFicha.nome = "Nathalia";
-//        minhaFicha.corFavrita = "Amarelo";
-//        minhaFicha.comidaFavorita = "Pizza";
-//
-//        minhaFicha.exibeMinhaFicha();
         Carro carro = new Carro();
 
         carro.nome = "Fusca";
