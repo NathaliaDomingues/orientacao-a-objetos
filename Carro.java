@@ -4,7 +4,7 @@ public class Carro {
     String nome;
     String marca;
     int anoDeLancamento;
-    String ipvaPago;
+    String cor;
     int somaDasAvaliacoes;
     int totalDeAvaliacoes;
 
@@ -12,7 +12,7 @@ public class Carro {
         System.out.println("Nome do carro: " + nome);
         System.out.println("Marca: " + marca);
         System.out.println("Ano de lançamento: " + anoDeLancamento);
-        System.out.println("IPVA: " + ipvaPago);
+        System.out.println("Cor do carro: " + cor);
     }
 
     void avaliacao(double nota) {
