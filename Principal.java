@@ -1,6 +1,6 @@
 public class Principal {
     public static void main(String[] args) {
-        //FILME
+        //INFORMAÇÕES DE UM FILME
         //tipo referência
         Filme meuFilme = new Filme();
         //...
