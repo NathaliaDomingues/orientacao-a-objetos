@@ -1,12 +1,21 @@
 public class Filme {
    String nome;
    int anoDeLancamento;
-   double somaDasAvaliacao;
-   int totalDeAvaliacao;
-   int duracaoEmMinutos;
-   //mudança de cor quando utilizado
+   //MUDANÇA DE COR QUANDO UTILIZADO
+   //MODIFICADORES DE ACESSO
+   private double somaDasAvaliacao;
+   private int totalDeAvaliacao;
+   //...
 
-   //Metodo
+   //METODO ACESSOR
+   int getTotalDeAvaliacao(){
+      return totalDeAvaliacao;
+   }
+   //...
+
+   int duracaoEmMinutos;
+
+   //METODOS
    void exibeFichaTecnica(){
       System.out.println("Nome do filme: " + nome);
       System.out.println("Ano de lançamento: " + anoDeLancamento);
