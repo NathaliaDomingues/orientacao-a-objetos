@@ -1,5 +1,4 @@
 public class Principala {
-    //DADOS DE UM ALUNO
     public static void main(String[] args) {
         Aluno aluno = new Aluno();
 

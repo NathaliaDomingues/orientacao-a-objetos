@@ -1,5 +1,4 @@
 public class Principalm {
-    //DADOS DE UMA MÚSICA
     public static void main(String[] args) {
         Musica musica = new Musica();
 

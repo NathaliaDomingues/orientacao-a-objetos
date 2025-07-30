@@ -1,6 +1,5 @@
 public class Main {
     public static void main(String[] args) {
-        //INFORMAÇÕES DE UM CARRO
         Carro carro = new Carro();
 
         carro.nome = "Fusca";

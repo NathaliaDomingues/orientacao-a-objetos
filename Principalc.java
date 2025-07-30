@@ -1,5 +1,4 @@
 public class Principalc {
-    //O DOBRO DE UM NÚMERO
     public static void main(String[] args) {
         Calculadora calculadora = new Calculadora();
 
